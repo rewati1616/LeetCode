@@ -1,7 +1,7 @@
 class Solution {
 public:
-    string convert(string s, int numRows) {
-        if (numRows == 1 || s.size() <= numRows) 
+    string convert(string s, int numRows) { 
+        if (numRows == 1 || s.size() <= numRows ) 
             return s;
 
         vector<string> rows(numRows);
